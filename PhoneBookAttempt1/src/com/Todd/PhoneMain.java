@@ -16,13 +16,13 @@ public class PhoneMain {
 	{
 	System.out.println("please pay attention to the menue options");
 	System.out.println("enter 1 to create a new entry");
-	System.out.println("enter 2 to search for an exiting entry by first name");
-	System.out.println("enter 3 to search for an exiting entry by last name");
-	System.out.println("enter 4 to search for an exiting entry by full name");
-	System.out.println("enter 5 to search for an exiting entry by city");
-	System.out.println("enter 6 to search for an exiting entry by state");
-	System.out.println("enter 7 to search for an exiting entry by Address");
-	System.out.println("enter 8 to search for an exiting entry by Telephone");
+	System.out.println("enter 2 to search for an existing entry by first name");
+	System.out.println("enter 3 to search for an existing entry by last name");
+	System.out.println("enter 4 to search for an existing entry by full name");
+	System.out.println("enter 5 to search for an existing entry by city");
+	System.out.println("enter 6 to search for an existing entry by state");
+	System.out.println("enter 7 to search for an existing entry by Address");
+	System.out.println("enter 8 to search for an existing entry by Telephone");
 	System.out.println("enter 9 to delete a record by telephone number");
 	System.out.println("enter 10 to update a record by telephone number");
 	System.out.println("enter 11 to show all the records by ascending order");

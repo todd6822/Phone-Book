@@ -15,7 +15,7 @@ public class SearchEntries {
 		for (int x = 0; x < inputArray.length; x++) {// this nested 4 loop converts one of the rows of the input 2d array
 			// into a string
 			String outputString="";
-			if (inputArray[x][elementNumbner].contains(valueToFind)) {	
+			if (inputArray[x][elementNumbner].equals(valueToFind)) {	
 				System.out.println("value found");
 				found=true;
 			for (int y = 0; y < inputArray[0].length; y++) {
@@ -58,7 +58,7 @@ public class SearchEntries {
 				// into a string
 				String outputString="";
 				
-				if ((inputArray[x][elementNumber1].contains(valueToFind1))&&(inputArray[x][elementNumber2].contains(valueToFind2))) {	
+				if ((inputArray[x][elementNumber1].equals(valueToFind1))&&(inputArray[x][elementNumber2].equals(valueToFind2))) {	
 					System.out.println("value found");
 					found=true;
 					

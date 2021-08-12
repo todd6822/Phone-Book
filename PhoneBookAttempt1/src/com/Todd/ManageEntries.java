@@ -182,6 +182,7 @@ public class ManageEntries {
 		case "4":{
 			System.out.println("please enter the new Phone Number");
 			inputArray[elementToModify][6]=scanner.nextLine();
+			break;
 			
 		}
 		default:
@@ -209,15 +210,18 @@ public class ManageEntries {
 		
 		for (int x=0;x<inputArray.length;x++)
 			if(inputArray[x][d2Elements].contains(phoneNumber))
-			{	System.out.println("delete mnethod x is "+x+ " y is "+y+" at line 206");
+			{	System.out.println("value found: element x is "+x+ " y is "+y+" at line");
 				found=true;
 				
 				continue;
 			}
 			else
-			{	System.out.println("delete mnethod x is "+x+ " y is "+y+" at line 210");
+			{	//System.out.println("delete mnethod x is "+x+ " y is "+y+" at line 210");
+				if (y==returnArray.length){
+					return inputArray;}
+				else {			
 				returnArray[y]=inputArray[x];
-				y++;
+				y++;}
 				
 			}
 		
@@ -228,6 +232,7 @@ public class ManageEntries {
 			else 
 			{
 				System.out.println("phone number was not found");
+				return inputArray;
 			}
 			
 		return returnArray;
